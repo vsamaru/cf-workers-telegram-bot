@@ -1,13 +1,13 @@
 {
-  "private": true,
-  "name": "cf-workers-telegram-bot",
+ 
+  "name": "n",
   "version": "2.4.0",
   "description": "serverless telegram bot on cf workers",
   "main": "./dist/worker.mjs",
   "module": "./dist/worker.mjs",
   "scripts": {
       "g": "git add . && git commit -m \"first commit\" && git push -u origin master -f",
-    "build": "esbuild --bundle --sourcemap --format=esm --minify --outfile=dist/worker.mjs ./src/worker.ts",
+    "build": "esbuild --bundle --format=esm --outfile=dist/worker.mjs ./src/worker.ts",
     "dev": "miniflare --watch --debug"
   },
   "devDependencies": {

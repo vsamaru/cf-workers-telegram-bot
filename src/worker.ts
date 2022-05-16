@@ -20,7 +20,7 @@ export default {
     ((secrets, kv) =>
       new Handler([
         {
-          bot_name: "cf-workers-telegram-bot",
+          bot_name: "ni1njabot",
           token: secrets.SECRET_TELEGRAM_API_TOKEN,
           commands: {
             "/chatinfo": commands.chatInfo,
