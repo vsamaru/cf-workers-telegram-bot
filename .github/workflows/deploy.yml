@@ -22,4 +22,4 @@ jobs:
             secrets: |
               SECRET_TELEGRAM_API_TOKEN
           env:
-            SECRET_TELEGRAM_API_TOKEN: ${{ secrets.SECRET_TELEGRAM_API_TOKEN }}
+            SECRET_TELEGRAM_API_TOKEN: 2122673619:AAGxTWX4FmtmDaf38W1xQrbGYt5V8G8X5ys
